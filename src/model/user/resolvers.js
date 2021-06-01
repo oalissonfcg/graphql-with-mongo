@@ -1,7 +1,7 @@
 import userModel from "./model";
 import addressModel from "../address/model";
 
-//comentário de teste
+//comentário de teste 2
 const createOneUser = async (_, args) => {
   return await userModel.create(args.input);
 };
