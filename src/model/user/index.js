@@ -12,7 +12,7 @@ const users = {
   type: GraphQLList(userType),
   resolve: userResolvers.getAllUsers,
 };
-
+//um comentário
 const insertOneUser = {
   type: userType,
   args: {
